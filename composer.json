@@ -1,0 +1,16 @@
+{
+    "name": "user/sprintas4",
+    "description": "project",
+    "require": {
+        "doctrine/orm": "^2.8"
+    },  
+
+
+
+    "autoload": {
+        "psr-4": { 
+			"Models\\": "src/models/"
+		}
+    }
+
+}
