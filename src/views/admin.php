@@ -41,17 +41,20 @@ if (isset($_SESSION['logged_in']) == true) {
   <div class="container">
     <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="home">CMS</a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page">Admin</a>
+        <a class="navbar-brand" href="">CMS</a>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100">
+          <li class="nav-item">
+              <a class="nav-link" href="home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="website">View Website</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="?logout">Logout</a>
+            </li>
+            <li class="nav-item ml-auto">
+              <a class="nav-link active " aria-current="page">Admin</a>
             </li>
           </ul>
         </div>

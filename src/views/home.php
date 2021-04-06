@@ -10,13 +10,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <?php
-            $pages = $entityManager->getRepository('Models\Page')->findAll();
-            print('<li class="nav-item">');
-            foreach ($pages as $p)
-              print('
-             <a class="nav-link " aria-current="page" href="?page=' . $p->getId() . '">' . $p->getTitle() . '</a>
-           </li>
-       ');
+      //       $pages = $entityManager->getRepository('Models\Page')->findAll();
+      //       print('<li class="nav-item">');
+      //       foreach ($pages as $p)
+      //         print('
+      //        <a class="nav-link " aria-current="page" href="?page=' . $p->getId() . '">' . $p->getTitle() . '</a>
+      //      </li>
+      //  ');
             ?>
           </ul>
         </div>

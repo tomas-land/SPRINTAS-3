@@ -16,10 +16,9 @@
 <li>download zip package</li>
 <li>extract it to web server folder(../Ampps/wwww)</li>
 <li>install composer package manager <a href="https://getcomposer.org/download/">https://getcomposer.org/download/</a> in AMMPS root directory</li>
-<li>in repository folder (../SPRINTAS-3) using CMD or Gitbash initialise:</li>
-<pre>php ../composer.phar install</pre>
 <li>create database: database_cms</li>
-<li>to update database: </li>
-<pre>php ../composer.phar install</pre><!-- vendor\bin\doctrine orm:schema-tool:update --force --dump-sql -->
+<li>to update database : </li>
+<pre>vendor\bin\doctrine orm:schema-tool:update --force --dump-sql</pre>
+<li>open project : localhost/SPRINTAS-3/admin</li>
 
 
